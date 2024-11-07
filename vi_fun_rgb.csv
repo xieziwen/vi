@@ -1,0 +1,15 @@
+index,formula
+    EXR , 1.4*r - g
+    MGRVI , (g^2 - r^2)/(g^2 + r^2)
+    NGRDI , (g - r)/(g + r)
+    RGRI , r/g
+    VGBDI , (g - b)/(g + b)
+    EXG , 2*g - r - b
+    EXGR , 3*g - 2.4*r - b
+    VEG , g/(r^0.667 * b^(1-0.667))
+    CIVE , 0.441*r - 0.881*g + 0.385*b + 18.78745
+    RGBVI , (g^2 - b*r)/(g^2 + b*r)
+    GLI , (2*g - b - r)/(2*g + b + r)
+    VARI , (g - r)/(g + r - b)
+    WI , (g - b)/(r - g)
+    COM , 0.25*(2*g - r - b) + 0.2*(3*g - 2.4*r - b) + 0.33*(0.441*r - 0.881*g + 0.385*b + 18.78745) + 0.12*(g/(r^0.667 * b^(1-0.667)))
